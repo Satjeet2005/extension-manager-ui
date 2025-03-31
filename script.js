@@ -96,11 +96,11 @@ themeChange.addEventListener('click',function(){
     menuBar.classList.toggle('menu-bar--light');
     
     if(isDark){
-        themeChangeIcon.setAttribute('src','/assets/images/icon-moon.svg');
+        themeChangeIcon.setAttribute('src','assets/images/icon-moon.svg');
         isDark = false;
     }
     else{
-        themeChangeIcon.setAttribute('src','/assets/images/icon-sun.svg');
+        themeChangeIcon.setAttribute('src','assets/images/icon-sun.svg');
         isDark = true;
     }
 })
