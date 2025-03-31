@@ -3,7 +3,7 @@
 let dataObject;
 let number;
 async function fetchData() {
-    let data = await fetch('/data.json');
+    let data = await fetch('data.json');
     let info = await data.json();
     dataObject = info;
     number = dataObject.length;
